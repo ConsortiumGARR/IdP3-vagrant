@@ -35,7 +35,7 @@ nei passi successivi.
 
 3. Installare le Guest Additions di Virtualbox con "```vagrant plugin install vagrant-vbguest```"
 
-4. Installare il plugin di Vagrant per ridimensionare l'hard disk per il corso a 10 GB: "```vagrant plugin install vagrant-disksize```"
+4. Installare il plugin di Vagrant per ridimensionare l'hard disk per il corso: "```vagrant plugin install vagrant-disksize```"
 
 5. Eseguire "```vagrant up```" per istanziare l'ambiente di sviluppo del corso.
 
@@ -44,15 +44,15 @@ nei passi successivi.
 7. Una volta acceduti e ottenuto il prompt, eseguire:
 
    ```bash
-      sudo su -
-      git clone https://github.com/ConsortiumGARR/IdP3-ansible.git
-      cd IdP3-ansible
-      ansible-playbook playbook.yml -i hosts
+   sudo su -
+   git clone https://github.com/ConsortiumGARR/IdP3-ansible.git
+   cd IdP3-ansible
+   ansible-playbook playbook.yml -i hosts
    ```
 
 8. Cambiare il proprio "```/etc/hosts```" (Linux) aggiungendo la seguente linea:
    ```bash
-      192.168.33.10  idp.example.org sp.example.org idp sp
+   192.168.33.10  idp.example.org sp.example.org idp sp
    ```
 
 9. Ora è possibile accedere alla VM del corso mediante l'IP (```192.168.33.10```) o il nome (```idp.example.org``` o ```sp.example.org```) e protrete vedere le applicazioni web usate durante il corso sul vostro browser preferito (Chrome, FireFox, Opera, ...)
@@ -67,7 +67,7 @@ nei passi successivi.
 
 3. Installare le Guest Additions di Virtualbox con "```vagrant plugin install vagrant-vbguest```"
 
-4. Installare il plugin di Vagrant per ridimensionare l'hard disk per il corso a 10 GB: "```vagrant plugin install vagrant-disksize```"
+4. Installare il plugin di Vagrant per ridimensionare l'hard disk per il corso: "```vagrant plugin install vagrant-disksize```"
 
 5. Eseguire "```vagrant up```" per istanziare l'ambiente di sviluppo del corso.
 
@@ -76,15 +76,15 @@ nei passi successivi.
 7. Una volta acceduti e ottenuto il prompt, eseguire:
 
    ```bash
-      sudo su -
-      git clone https://github.com/ConsortiumGARR/IdP3-ansible.git
-      cd IdP3-ansible
-      ansible-playbook playbook.yml -i hosts
+   sudo su -
+   git clone https://github.com/ConsortiumGARR/IdP3-ansible.git
+   cd IdP3-ansible
+   ansible-playbook playbook.yml -i hosts
    ```
 
 8. Cambiare il proprio "```/etc/hosts```" (Linux) aggiungendo la seguente linea:
    ```bash
-      192.168.33.10  idp.example.org sp.example.org idp sp
+   192.168.33.10  idp.example.org sp.example.org idp sp
    ```
 
 9. Ora è possibile accedere alla VM del corso mediante l'IP (```192.168.33.10```) o il nome (```idp.example.org``` o ```sp.example.org```) e protrete vedere le applicazioni web usate durante il corso sul vostro browser preferito (Chrome, FireFox, Opera, ...)
@@ -92,7 +92,7 @@ nei passi successivi.
 ## Istructions for Windows
 
 1. Installare GIT prelevando il setup da: ```https://git-scm.com/download/win``` (scegliere "Vim" come GIT default editor, "Use GIT from Git Bash only", "Use OpenSSL library, "Checkout Windows style", "Use MinTTY" e lasciare quanto è già selezionato di default se non si sa cosa scegliere)
-```
+
 2. Avviare la Git Bash al termine dell'installazione
 
 3. Recuperare il repository GIT del corso:
@@ -103,7 +103,7 @@ nei passi successivi.
 
 5. Installare le Guest Additions di Virtualbox con "```vagrant plugin install vagrant-vbguest```"
 
-6. Installare il plugin di Vagrant per ridimensionare l'hard disk per il corso a 10 GB: "```vagrant plugin install vagrant-disksize```"
+6. Installare il plugin di Vagrant per ridimensionare l'hard disk per il corso: "```vagrant plugin install vagrant-disksize```"
 
 7. Eseguire "```vagrant up```" per istanziare l'ambiente di sviluppo del corso.
 
@@ -112,15 +112,15 @@ nei passi successivi.
 9. Una volta acceduti e ottenuto il prompt, eseguire:
 
    ```bash
-      sudo su -
-      git clone https://github.com/ConsortiumGARR/IdP3-ansible.git
-      cd IdP3-ansible
-      ansible-playbook playbook.yml -i hosts
+   sudo su -
+   git clone https://github.com/ConsortiumGARR/IdP3-ansible.git
+   cd IdP3-ansible
+   ansible-playbook playbook.yml -i hosts
    ```
 
 10. Cambiare il proprio "```C:\Windows\System32\drivers\etc\hosts```" (Windows) aggiungendo la seguente linea:
    ```bash
-      192.168.33.10  idp.example.org sp.example.org idp sp
+   192.168.33.10  idp.example.org sp.example.org idp sp
    ```
 
 11. Ora è possibile accedere alla VM del corso mediante l'IP (```192.168.33.10```) o il nome (```idp.example.org``` o ```sp.example.org```) e protrete vedere le applicazioni web usate durante il corso sul vostro browser preferito (Chrome, FireFox, Opera, ...)
