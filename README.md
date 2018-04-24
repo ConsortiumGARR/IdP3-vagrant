@@ -9,6 +9,7 @@ https://learning.garr.it/enrol/index.php?id=45
 
 * Vagrant: https://www.vagrantup.com/downloads.html (Testato con le versioni 2.0.3 e v2.0.4)
 * VirtualBox: https://www.virtualbox.org/wiki/Downloads (Testato con la versione v5.2.8 e v5.2.10)
+* Almeno 3 GB di RAM disponibili
 
 ## Istruzioni
 
@@ -23,7 +24,7 @@ nei passi successivi.
 
 ### Provisioning: macchina virtuale
 
-## Istructions for Linux
+## Istruzioni per chi ha Linux (Debian)
 
 1. Recuperare il repository GIT del corso:
    * ```sudo su -```
@@ -57,7 +58,7 @@ nei passi successivi.
 
 9. Ora è possibile accedere alla VM del corso mediante l'IP (```192.168.33.10```) o il nome (```idp.example.org``` o ```sp.example.org```) e protrete vedere le applicazioni web usate durante il corso sul vostro browser preferito (Chrome, FireFox, Opera, ...)
 
-## Istructions for MacOSX
+## Istruzioni per chi ha MacOSX
 
 1. Recuperare il repository GIT del corso:
    * ```cd Desktop ; git clone https://github.com/ConsortiumGARR/IdP3-vagrant``` 
@@ -89,7 +90,7 @@ nei passi successivi.
 
 9. Ora è possibile accedere alla VM del corso mediante l'IP (```192.168.33.10```) o il nome (```idp.example.org``` o ```sp.example.org```) e protrete vedere le applicazioni web usate durante il corso sul vostro browser preferito (Chrome, FireFox, Opera, ...)
 
-## Istructions for Windows
+## Istruzioni per chi ha Windows
 
 1. Installare GIT prelevando il setup da: ```https://git-scm.com/download/win``` (scegliere "Vim" come GIT default editor, "Use GIT from Git Bash only", "Use OpenSSL library, "Checkout Windows style", "Use MinTTY" e lasciare quanto è già selezionato di default se non si sa cosa scegliere)
 
