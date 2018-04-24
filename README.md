@@ -9,7 +9,7 @@ https://learning.garr.it/enrol/index.php?id=45
 
 * Vagrant: https://www.vagrantup.com/downloads.html (Testato con le versioni 2.0.3 e v2.0.4)
 * VirtualBox: https://www.virtualbox.org/wiki/Downloads (Testato con la versione v5.2.8 e v5.2.10)
-* Almeno 3 GB di RAM disponibili
+* Almeno 3 GB di RAM disponibili e 15 GB di spazio disco
 
 ## Istruzioni
 
