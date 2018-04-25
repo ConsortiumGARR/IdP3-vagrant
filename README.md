@@ -141,7 +141,7 @@ riconosciuta, quindi vanno accettati manualmente.
 * LINK: https://sp.example.org
   CONTENUTO: `Virtualhost sp.example.org configurato correttamente`
 * LINK: https://idp.example.org/idp
-  CONTENUTO: una pagina di errore di Apache Tomcat con contenuto `HTTP Status 404 - /idp`
+  CONTENUTO: una pagina di errore da parte di Jetty con contenuto `HTTP ERROR 404`
 * LINK: https://sp.example.org/secure
   CONTENUTO: una pagina dal titolo `shibsp::ConfigurationException`
 
