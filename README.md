@@ -52,6 +52,7 @@ nei passi successivi.
    ```
 
 8. Cambiare il proprio "```/etc/hosts```" (Linux) aggiungendo la seguente linea:
+
    ```bash
    192.168.33.10  idp.example.org sp.example.org idp sp
    ```
@@ -64,7 +65,7 @@ nei passi successivi.
    * ```cd Desktop ; git clone https://github.com/ConsortiumGARR/IdP3-vagrant``` 
 
 2. Spostarsi sulla cartella "```IdP3-vagrant```":
-   * ```cd /opt/IdP3-vagrant```
+   * ```cd Desktop/IdP3-vagrant```
 
 3. Installare le Guest Additions di Virtualbox con "```vagrant plugin install vagrant-vbguest```"
 
@@ -83,7 +84,10 @@ nei passi successivi.
    ansible-playbook playbook.yml -i hosts
    ```
 
-8. Cambiare il proprio "```/etc/hosts```" (Linux) aggiungendo la seguente linea:
+8. Cambiare il proprio "```/etc/hosts```" aggiungendo la seguente linea:
+
+   * ```sudo vi /etc/hosts```
+
    ```bash
    192.168.33.10  idp.example.org sp.example.org idp sp
    ```
@@ -120,6 +124,7 @@ nei passi successivi.
    ```
 
 10. Cambiare il proprio "```C:\Windows\System32\drivers\etc\hosts```" (Windows) aggiungendo la seguente linea:
+
    ```bash
    192.168.33.10  idp.example.org sp.example.org idp sp
    ```
