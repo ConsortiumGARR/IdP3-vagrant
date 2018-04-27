@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
   #config.vm.box = "base"
   config.vm.box = "debian/jessie64"
   config.disksize.size = "10GB"
-  config.vm.hostname = "idp"
+  #config.vm.hostname = "idp"
   
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
