@@ -73,8 +73,8 @@ Vagrant.configure("2") do |config|
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
     apt-get update
-    apt-get upgrade -y
-    apt-get install -y vim python-setuptools git
+    apt-get --yes upgrade
+    apt-get --yes install vim python-setuptools git
     sed -i 's/"syntax on/syntax on/g' /etc/vim/vimrc
     easy_install pip
     pip install ansible
