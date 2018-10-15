@@ -72,12 +72,15 @@ Vagrant.configure("2") do |config|
   # Puppet, Chef, Ansible, Salt, and Docker are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", inline: <<-SHELL
+    export DEBIAN_FRONTEND=noninteractive
     apt-get update
-    apt-get --yes upgrade
-    apt-get --yes install vim python-setuptools git
-    sed -i 's/"syntax on/syntax on/g' /etc/vim/vimrc
-    easy_install pip
-    pip install ansible
-    pip install -U pyopenssl
+    apt-get upgrade --yes
+    apt-get install -y vim git python-dev
+    cd /usr/local/src
+    wget https://bootstrap.pypa.io/get-pip.py 
+    python get-pip.py --prefix=/usr/local
+    pip install -U pip
+    pip install --upgrade --force-reinstall ansible pyopenssl
+    sed -i -e 's/"syntax on/syntax on/g' /etc/vim/vimrc
   SHELL
 end
